@@ -1,0 +1,79 @@
+/* reset margin, padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.banner {
+    height: 500px;
+    background: url('./cong-cu-tao-banner-shopee.jpg') center center no-repeat;
+    padding: 20px;
+}
+
+.about-sign-in {
+    height: 100px;
+    width: 100%;
+    text-align: right;
+}
+
+.about,
+.sign-in {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 7px 15px;
+    text-transform: uppercase;
+}
+
+.sign-in {
+    margin-right: 60px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+
+.text {
+    text-align: center;
+}
+
+.btn-start-now {
+    text-align: center;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 17px;
+    margin-top: 5px;
+    border: solid green 1px;
+    cursor: pointer;
+}
+
+.content-center {
+    height: 50px;
+    border: solid red 1px;
+}
+
+.left,
+.center,
+.right {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+span {
+    display: block;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
